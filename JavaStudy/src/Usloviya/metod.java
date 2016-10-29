@@ -1,7 +1,12 @@
 package Usloviya;
 
 /**
- * Created by user on 26.10.2016.
+ проверка системы контроля версий
  */
-public class metod {
+public class metod
+{
+    public static void main (String[]args)
+    {
+        System.out.println("Уасяя");
+    }
 }
