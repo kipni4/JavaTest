@@ -5,18 +5,12 @@ package Usloviya;
  */
 public class TablicaUmnosh {
     public static void main(String[] args) {
-        int i, j;
-        j = i = 1;
-        do {
-            i++;
-            do {
-                System.out.println(i);
-                System.out.println(j);
-                j++;
-            }
-                while (j < 10) ;
-            }
-            while (i < 10);
+      for (int i=1;i < 10;i++){
+          System.out.println();
+          for(int j=1;j<10;j++){
+              System.out.print(j+"*"+i+"="+(i*j)+" ");
+          }
+      }
         }
     }
 
