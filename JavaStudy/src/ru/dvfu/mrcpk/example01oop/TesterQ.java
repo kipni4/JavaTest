@@ -28,6 +28,7 @@ public class TesterQ {
         class otvet{
             String imyaOt;
             void meshatb(){};
+
         }
     }
 
